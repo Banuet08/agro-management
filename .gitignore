@@ -1,0 +1,51 @@
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Carpetas y archivos generados por Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Carpeta virtualenv (si se usa virtualenv)
+venv/
+
+# Carpeta generada por el entorno de desarrollo
+.env/
+
+# Archivo de base de datos SQLite (cambiar si se utiliza otro motor)
+db.sqlite3
+
+# Carpeta de archivos estáticos recopilados
+staticfiles/
+
+# Carpeta de archivos de medios
+media/
+
+# Configuración de entorno local
+.env.local
+
+# Configuración de entorno de desarrollo
+.env.development
+
+# Configuración de entorno de producción
+.env.production
+
+# Logs
+logs/
+*.log
+
+# Archivo de migraciones SQLite
+*.sqlite
+
+# Carpeta de registro de eventos
+log/
+
+# Archivos de volcado de la base de datos
+*.dump
+*.db-journal
+
+# Carpeta de archivos temporales
+.tmp/
